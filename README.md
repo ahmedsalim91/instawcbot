@@ -49,12 +49,6 @@ pip install telebot instagrapi
 - Instagram may temporarily block frequent logins. Use trusted accounts.
 - Keep your Telegram bot token secure.
 
-## Credits
-🫡 Made by [@tipsandgamer](https://t.me/tipsandgamer)
-
-## License
-This project is licensed under the MIT License.
-
 # --> Using the Python Tool version
 
 This Python script automatically detects new participants in an Instagram group chat and sends them a welcome message. It uses the `instagrapi` library for Instagram automation and maintains a session file to reduce login attempts.
@@ -104,3 +98,12 @@ This Python script automatically detects new participants in an Instagram group 
 - If login issues occur, delete `session.json` and re-run the script.
 - Ensure your account doesn’t have two-factor authentication enabled.
 - If the bot stops working, check the logs for error messages.
+## Credits
+🫡 Made by [@tipsandgamer](https://t.me/tipsandgamer)
+
+## License
+This project is licensed under the MIT License.
+
+## Disclaimer
+
+This script is for educational purposes only. Use responsibly to avoid violating Instagram's terms of service.
