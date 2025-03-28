@@ -4,7 +4,7 @@
 Insta WC Bot is a Telegram bot that welcomes new members in an Instagram group chat. The bot allows users to set their Instagram login credentials, specify a group chat ID, and define a custom welcome message. It continuously monitors the group and sends a welcome message to new members.
 
 
-# Using the Telegram Bot version
+# --> Using the Telegram Bot version
 
 ## Features
 - 📌 **Set Instagram Login** (`/setlogin`): Save Instagram username and password.
@@ -55,7 +55,7 @@ pip install telebot instagrapi
 ## License
 This project is licensed under the MIT License.
 
-# Using the Python Tool version
+# --> Using the Python Tool version
 
 This Python script automatically detects new participants in an Instagram group chat and sends them a welcome message. It uses the `instagrapi` library for Instagram automation and maintains a session file to reduce login attempts.
 
