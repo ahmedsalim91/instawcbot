@@ -1,7 +1,4 @@
-# instawcbot
-automatically wellcome every user joined insta group
-
-# Insta WC Bot
+# Instagram Group Auto-Welcome Bot
 
 ## Overview
 Insta WC Bot is a Telegram bot that welcomes new members in an Instagram group chat. The bot allows users to set their Instagram login credentials, specify a group chat ID, and define a custom welcome message. It continuously monitors the group and sends a welcome message to new members.
@@ -58,3 +55,52 @@ pip install telebot instagrapi
 ## License
 This project is licensed under the MIT License.
 
+# Using the Python Tool version
+
+This Python script automatically detects new participants in an Instagram group chat and sends them a welcome message. It uses the `instagrapi` library for Instagram automation and maintains a session file to reduce login attempts.
+
+## Features
+
+- Automatically detects new users joining an Instagram group chat.
+- Sends a customizable welcome message to new participants.
+- Saves session data to avoid frequent logins.
+- Maintains a record of previous participants to track new members.
+- Logs activity for easy debugging and monitoring.
+
+## Requirements
+
+- Python 3.7+
+- `instagrapi` library
+- Instagram account credentials
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/instagram-group-bot.git
+   cd instagram-group-bot
+   ```
+2. Install dependencies:
+   ```bash
+   pip install instagrapi
+   ```
+
+## Usage
+
+1. Run the script:
+   ```bash
+   python bot.py
+   ```
+2. Enter your Instagram credentials and group chat ID when prompted.
+
+## Configuration
+
+- `WELCOME_MESSAGE`: Modify the message format inside the script.
+- `SESSION_FILE`: Change the filename if you want to store session details differently.
+- `PARTICIPANTS_FILE`: File storing previously seen participants.
+
+## Troubleshooting
+
+- If login issues occur, delete `session.json` and re-run the script.
+- Ensure your account doesn’t have two-factor authentication enabled.
+- If the bot stops working, check the logs for error messages.
