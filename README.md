@@ -3,6 +3,7 @@
 ## Overview
 Insta WC Bot is a Telegram bot that welcomes new members in an Instagram group chat. The bot allows users to set their Instagram login credentials, specify a group chat ID, and define a custom welcome message. It continuously monitors the group and sends a welcome message to new members.
 
+![How to Get User ID](instagcchatid.gif)
 
 # --> Using the Telegram Bot version
 
